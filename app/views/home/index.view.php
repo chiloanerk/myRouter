@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My PHP Router</title>
+    <title><?= $title ?></title>
 </head>
 <body>
-<h1>Welcome to My Router</h1>
-<p>This is proof the router works.</p>
+<h1><?= $heading ?></h1>
+<p><?= $content ?></p>
 </body>
 </html>

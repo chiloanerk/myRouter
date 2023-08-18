@@ -5,8 +5,10 @@ function base_path($path = '')
     return realpath(__DIR__ . '/../..') . '/' . ltrim($path, '/');
 }
 
-function view($viewPath)
+function view($viewPath, array $data = [])
 {
+    // Extract data
+    extract($data);
     // Convert the view path to a file path
     $viewFile = str_replace('/', DIRECTORY_SEPARATOR, $viewPath) . '.view.php';
     $viewFilePath = base_path("app/views/$viewFile");
