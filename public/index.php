@@ -22,8 +22,7 @@ spl_autoload_register(function ($className) {
 
 $router = new Router();
 
-// Include the routes.php file to define your routes
+// Path to routes file
 require_once base_path('app/routes/routes.php');
 
-// Now you can start handling requests
 $router->handleRequest();
