@@ -21,6 +21,6 @@ This repository contains a basic PHP MVC (Model-View-Controller) router that pro
 5. Access your web application in the browser and navigate to the defined routes.
 
 ### Usage
-Define routes in the app/routes/routes.php file using the router's methods.
-Create controllers in the app/controllers directory.
-Place views in the app/views directory using format name.view.php.
+- Define routes in the app/routes/routes.php file using the router's methods.
+- Create controllers in the app/controllers directory.
+- Place views in the app/views directory using format name.view.php.
