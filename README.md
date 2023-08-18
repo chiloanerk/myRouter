@@ -17,8 +17,7 @@ This repository contains a basic PHP MVC (Model-View-Controller) router that pro
    git clone https://github.com/chiloanerk/myRouter.git
 
 2. Configure your web server to point to the public directory as the document root.
-    ``I use php -S localhost:8080 -t public
-   ``
+    ```I use php -S localhost:8080 -t public
 
 3. Define your routes in the app/routes/routes.php file.
 
