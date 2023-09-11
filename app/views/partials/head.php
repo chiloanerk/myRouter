@@ -4,4 +4,4 @@
     <title><?= $title ?></title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="h-full">
+<body class="min-h-full">
